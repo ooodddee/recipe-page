@@ -1,0 +1,157 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f3e5d7;
+  width: 100vw;
+  height: auto;
+  font-size: 1em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: hsl(30, 10%, 34%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+
+  background: #fff;
+  padding: 2em 3em;
+  border-radius: 20px;
+  margin-block: 4em;
+  gap: 2em;
+}
+
+section {
+  border-bottom: hsl(30, 18%, 87%) solid 1px;
+}
+
+/* Section one */
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  line-height: ;
+  color: hsl(30, 10%, 34%);
+}
+
+.part-two {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.one-card-header {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.part-two ::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.part-two li,
+.part-three li,
+.section-two li {
+  margin-bottom: 10px;
+  list-style-position: inside;
+}
+
+.part-two li:last-child {
+  margin-bottom: 0;
+}
+
+.part-three ::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.second-header {
+  margin-bottom: 20px;
+}
+
+.part-three {
+  margin-bottom: 2rem;
+}
+
+/* Section two */
+
+.section-two ::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.section-two li:last-child {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-size: 1.5rem;
+}
+
+.detail {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.section-three {
+  border-bottom: none;
+  width: 100%;
+}
+
+.section-three p {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+  border-bottom: hsl(30, 18%, 87%) solid 1px;
+}
+
+td {
+  padding: 10px 20px 10px 20px;
+}
+
+.attribution {
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
